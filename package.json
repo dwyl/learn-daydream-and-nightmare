@@ -1,14 +1,14 @@
 {
-  "name": "byob",
+  "name": "learn-daydream-and-nightmare",
   "version": "1.0.0",
-  "description": "bring your own browser",
+  "description": "Give yourself web super powers with two awesome tools! Learn Daydream & Nightmare.js Today!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node duckduckgo.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dwyl/byob.git"
+    "url": "https://github.com/dwyl/learn-daydream-and-nightmare.git"
   },
   "keywords": [
     "browser",
@@ -16,10 +16,13 @@
     "a",
     "browser"
   ],
-  "author": "@nelsonic <contact.nelsonic@gmail.com> (https://github.com/nelsonic)",
+  "author": "dwyl & friends!",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dwyl/byob/issues"
+    "url": "https://github.com/dwyl/learn-daydream-and-nightmare/issues"
   },
-  "homepage": "https://github.com/dwyl/byob"
+  "homepage": "https://github.com/dwyl/learn-daydream-and-nightmare",
+  "devDependencies": {
+    "nightmare": "^2.9.1"
+  }
 }
