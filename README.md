@@ -15,7 +15,7 @@ The problem is that
 ## _What_?
 
 This guide is _an introduction to_ "***web super powers***"
-_for **complet beginners**_.<br />
+_for **complete beginners**_.<br />
 _Unusually_ for a [dwyl "learn" tutorial](https://github.com/search?q=org%3Adwyl+learn)
 will be focussing on learning **_two_ tools**
 in the next **20-30 minutes**. <br />
@@ -24,17 +24,31 @@ in the next **20-30 minutes**. <br />
 
 ### Daydream
 
+Daydream is _extension_ for the Google Chrome web browser that allows
+you to record your actions into a script you can re-play!!
 
-### Nightmare
++ Google Chrome Extension store:
++ GitHub: https://github.com/segmentio/daydream
+
+### Nightmare.js
+
+Nightmare.js is a JavaScript library that
+lets you automate browser interaction! <br />
+Anything that a _human_ can do in a web browser can be automated by writing
+a small Nightmare.js script.
 
 + Website: http://nightmarejs.org (_which **really** does not do it justice!_)
 + GitHub: https://github.com/segmentio/nightmare
 
-### Not Covered
 
-Google recently decided to call their VR product "Daydream" ... https://vr.google.com/daydream
-this tutorial is not for that ...
-but if anyone _asks_ us we will gladly write a "how to build VR apps" tutorial!!
+
+#### Not Covered
+
+_Awkwardly_, Google _recently_ decided
+to call their Virtual Reality (VR) project "_Daydream_" ...
+see: [google.com/**daydream**](https://vr.google.com/daydream) <br />
+this tutorial is ***not*** for building a "VR" app ...
+but if anyone _asks_ us we will gladly write a "guide to building VR apps"!
 
 ## _Who_?
 
@@ -48,8 +62,10 @@ _There_, a nice _specific_ "***target user***"
 for this tutorial; _better_...? :stuck_out_tongue_winking_eye:
 
 Nightmare is _probably_ only useful to the people _making_ the web site/app
-because it's more "_cody_" ... but as you will (_hopefully_) see by the end
-of 30 mins of learning "***web super powers***"
+because it's more "_cody_" ... <br />
+but as you will (_hopefully_) see by the end
+of 30 mins of learning "***web super powers***",
+the code is quite simple!
 
 
 ### Are You _`New`_ To _Automated_ Testing?
@@ -62,3 +78,9 @@ see: [github.com/dwyl/**learn-tdd**](https://github.com/dwyl/learn-tdd)
 
 
 ## _How_?
+
+The _reason_ we have organized the tutorial with Daydream _first_
+is that you don't _need_ to know Nightmare.js to use Daydream,
+and it can be used by people without "coding" experience. 
+
+### How to Disable a Chrome Extension when Not In Use
