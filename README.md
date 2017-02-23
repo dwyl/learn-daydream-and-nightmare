@@ -25,12 +25,15 @@ in the next **20-30 minutes**. <br />
 ### Daydream
 
 Daydream is _extension_ for the Google Chrome web browser that allows
-you to record your actions into a script you can re-play!!
+you to record your actions into a script you can re-play!
 
-+ Google Chrome Extension store:
++ Google Chrome Extension store: https://github.com/segmentio/daydream#google-chrome
 + GitHub: https://github.com/segmentio/daydream
 
+
 ### Nightmare.js
+
+<!-- ![nightmare logo](https://cloud.githubusercontent.com/assets/194400/23049531/a0c1372a-f4b4-11e6-96a6-a38637f245a4.png) -->
 
 Nightmare.js is a JavaScript library that
 lets you automate browser interaction! <br />
@@ -39,7 +42,6 @@ a small Nightmare.js script.
 
 + Website: http://nightmarejs.org (_which **really** does not do it justice!_)
 + GitHub: https://github.com/segmentio/nightmare
-
 
 
 #### Not Covered
@@ -81,6 +83,8 @@ see: [github.com/dwyl/**learn-tdd**](https://github.com/dwyl/learn-tdd)
 
 The _reason_ we have organized the tutorial with Daydream _first_
 is that you don't _need_ to know Nightmare.js to use Daydream,
-and it can be used by people without "coding" experience. 
+and it can be used by people without "coding" experience.
 
 ### How to Disable a Chrome Extension when Not In Use
+
++ In your Chrome Browser, visit: chrome://extensions/
