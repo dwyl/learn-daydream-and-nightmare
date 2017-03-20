@@ -16,14 +16,14 @@ It turns out us [humans can literally be blind](https://en.wikipedia.org/wiki/Ch
 This guide is _an introduction to_ "***web super powers***"
 _for **complete beginners**_.<br />
 _Unusually_ for a [dwyl "learn" tutorial](https://github.com/search?q=org%3Adwyl+learn)
-will be focussing on learning **_two_ tools**
+we will be focussing on learning **_two_ tools**
 in the next **20-30 minutes**. <br />
-(_we usually try and learn/teach **one** thing at a time,
+(_We usually try and learn/teach **one** thing at a time,
   but in this case the tools go together like electricity and a **lightbulb**_!)
 
 ### Daydream
 
-Daydream is _extension_ for the Google Chrome web browser that allows
+Daydream is an _extension_ for the Google Chrome web browser that allows
 you to record your actions into a script you can re-play!
 
 + Google Chrome Extension store: https://github.com/segmentio/daydream#google-chrome
@@ -47,7 +47,7 @@ a small Nightmare.js script.
 
 _Awkwardly_, Google _recently_ decided
 to call their Virtual Reality (VR) project "_Daydream_" ...
-see: [google.com/**daydream**](https://vr.google.com/daydream) <br />
+see: [google.com/**daydream**](https://vr.google.com/daydream),
 this tutorial is ***not*** for building a "VR" app ...
 but if anyone _asks_ us we will gladly write a "guide to building VR apps"!
 
@@ -71,7 +71,7 @@ the code is quite simple!
 
 ### Are You _`New`_ To _Automated_ Testing?
 
-While _this_ tutorial has ***No Pre-requisites***
+While _this_ tutorial has ***no pre-requisites***
 (_other than a computer & Chrome web browser_),
 we have written an _introductory_ step-by-step guide
 to help _anyone_ learn (_automated_) "***Test Driven Development***" (**TDD**)
