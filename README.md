@@ -84,6 +84,37 @@ The _reason_ we have organized the tutorial with Daydream _first_
 is that you don't _need_ to know Nightmare.js to use Daydream,
 and it can be used by people without "coding" experience.
 
+### How to use Daydream
+
+- First of all [add Daydream to your Chrome extensions](https://chrome.google.com/webstore/detail/daydream/oajnmbophdhdobfpalhkfgahchpcoali). You'll know that it's successfully been enabled because you should now have a camera icon in the top right corner of your browser.
+
+![image](https://cloud.githubusercontent.com/assets/16775804/24111767/6f6f2512-0d8f-11e7-93db-c6976bfb8d9e.png)
+
+- Choose a user journey that you want to test.
+
+Start small ie. I want to test that users using this tutorial will reach a gif with the hashtag 'nightmare' when they click on the giphy link in the description at the top of the page.
+
+**From here:**
+
+![image](https://cloud.githubusercontent.com/assets/16775804/24113044/57cb6eb2-0d93-11e7-8973-bc82cfbe7519.png)
+
+**To here:**
+
+![image](https://cloud.githubusercontent.com/assets/16775804/24113092/8c611b36-0d93-11e7-83a2-f207f6da1d41.png)
+
+- Begin recording your actions that demonstrate your chosen user journey. To begin recording a session simply click on the camera symbol. It will turn green when it is recording.
+
+Start by navigating to your url in the browser address bar. You may find pasting the url in is the easiest way.
+
+![image](https://cloud.githubusercontent.com/assets/16775804/24113367/7df1feca-0d94-11e7-99f4-26775eb9f2ee.png)
+
+- Next navigate just as you normally would, following the path that you want the test to take. So for this test you would click on the giphy link in the tutorial description.
+
+![image](https://cloud.githubusercontent.com/assets/16775804/24113044/57cb6eb2-0d93-11e7-8973-bc82cfbe7519.png)
+
+- This takes you to
+
+
 ### How to Disable a Chrome Extension when Not In Use
 
 + In your Chrome Browser, visit: chrome://extensions/
