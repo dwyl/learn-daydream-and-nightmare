@@ -8,9 +8,8 @@ you discover that you've got "***web super powers***"!!
 Testing a web page/site/app to _confirm_ that it is working as _expected_
 _used_ to be difficult and _slow_.
 So most web developers/designers did not bother with _automated_ testing.
-Instead _most_ people do (_mannual_) "click though" or "visual regression" testing.
-The problem is that
-
+Instead _most_ people do (_manual_) "click though" or "visual regression" testing.
+It turns out us [humans can literally be blind](https://en.wikipedia.org/wiki/Change_blindness) to spotting changes during manual testing.
 
 ## _What_?
 
