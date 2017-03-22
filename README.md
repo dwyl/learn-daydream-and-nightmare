@@ -69,14 +69,17 @@ of 30 mins of learning "***web super powers***",
 the code is quite simple!
 
 
-### Are You _`New`_ To _Automated_ Testing?
+### Are You _`New`_ To Testing?
 
 While _this_ tutorial has ***no pre-requisites***
 (_other than a computer & Chrome web browser_),
 we have written an _introductory_ step-by-step guide
-to help _anyone_ learn (_automated_) "***Test Driven Development***" (**TDD**)
+to help _anyone_ learn "***Test Driven Development***" (**TDD**)
 see: [github.com/dwyl/**learn-tdd**](https://github.com/dwyl/learn-tdd)
 
+### What about _Automated_ Testing?
+
+**Automated** testing refers to testing automated user interactions. Daydream and Nightmare automate the usual clicks and behaviours that a human would perform, so you don't have to!
 
 ## _How_?
 
