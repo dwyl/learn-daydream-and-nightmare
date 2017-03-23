@@ -154,6 +154,7 @@ The test is ready, let's run it and see what happens! Type `node ` followed by t
 
 ### Commands to add
 
+- Need node to use it - link to a node tutorial? or just tell the user to npm init?
 - screenshot (and viewing screenshots)
 - click
 - go to
