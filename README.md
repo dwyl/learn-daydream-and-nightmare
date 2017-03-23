@@ -152,6 +152,14 @@ The test is ready, let's run it and see what happens! Type `node ` followed by t
 
 **We've successfully created our first automated test!**
 
+### Commands to add
+
+- screenshot (and viewing screenshots)
+- click
+- go to
+- green camera bug
+- Ways to get info from the dom ie. html/css elements
+
 ### How to Disable a Chrome Extension when Not In Use
 
 + In your Chrome Browser, visit: chrome://extensions/
