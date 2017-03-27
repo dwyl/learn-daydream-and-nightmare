@@ -119,7 +119,7 @@ and it can be used by people without "coding" experience.
 - This test is only a short one and so having clicked on the giphy link and having arrived on the giphy #nightmare page we are ready to end the recording.
 To do this, stop the recording by clicking on the green camera symbol. It will turn black to show recording has ended. You will see a blue notification which indicates that you've recorded a script:
 
-![image](https://cloud.githubusercontent.com/assets/16775804/24113514/f279fdf6-0d94-11e7-82d9-2d55e40c8405.png)
+<div style="text-align:center"><img src ="https://cloud.githubusercontent.com/assets/16775804/24113514/f279fdf6-0d94-11e7-82d9-2d55e40c8405.png" /></div>
 
 - Click this to see the recorded script (the bit of code you'll need to use in your project for the test). Copy and paste this code into a new file in your project.
 
@@ -131,7 +131,7 @@ Daydream does the hard work of recording our actions into a Nightmare test. Howe
 
 **2.** Written the code that tracks the user's journey throughout the code (ie. going to a given url, clicking on a button)
 
-![image](https://cloud.githubusercontent.com/assets/16775804/24255398/4d9567a8-0fdd-11e7-9888-0d33f330adf0.png)
+<div style="text-align:center"><img src ="https://cloud.githubusercontent.com/assets/16775804/24255398/4d9567a8-0fdd-11e7-9888-0d33f330adf0.png" height="300px"/></div>
 
 If you're non-technical try making sense of the commands in part **2** (on the screenshot). They represent common user actions such as clicking on a page or taking a screenshot. The text within the parentheses indicates what these commands apply to ie. what html/css element is being clicked on.
 
