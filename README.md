@@ -88,15 +88,13 @@ and it can be used by people without "coding" experience.
 
 ### Daydream walkthrough
 
-- [**Add Daydream to your Chrome extensions**](https://chrome.google.com/webstore/detail/daydream/oajnmbophdhdobfpalhkfgahchpcoali).
+#### Add Daydream to Chrome
 
-  You should now have a camera icon in the top right corner of your browser.
+- [**Add Daydream to your Chrome extensions**](https://chrome.google.com/webstore/detail/daydream/oajnmbophdhdobfpalhkfgahchpcoali). You should now have a camera icon in the top right corner of your browser.
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24111767/6f6f2512-0d8f-11e7-93db-c6976bfb8d9e.png)
 
-- **Pick a user journey that you want to test.**
-
-  Start small. We'll start with the following journey:
+- **Pick a user journey that you want to test.** Start small. We'll start with the following journey:
 
   **From this README > click the gif link in the tutorial description at the top > arrive at a gif with the hashtag 'nightmare'**
 
@@ -118,11 +116,12 @@ and it can be used by people without "coding" experience.
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24113044/57cb6eb2-0d93-11e7-8973-bc82cfbe7519.png)
 
-- This takes you to the giphy page which is where we want to end this test. To do this, stop the recording by clicking on the green camera symbol. It will now turn black again to show that it has ceased recording. There will be a blue notification there which tells you that you've recorded a script.
+- This test is only a short one and so having clicked on the giphy link and having arrived on the giphy #nightmare page we are ready to end the recording.
+To do this, stop the recording by clicking on the green camera symbol. It will turn black to show recording has ended. You will see a blue notification which indicates that you've recorded a script:
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24113514/f279fdf6-0d94-11e7-82d9-2d55e40c8405.png)
 
-- To see the script (the bit of code you'll need to use in your project for the test), click on the camera symbol. Now copy this code and paste it into a blank file in your project.
+- Click this to see the recorded script (the bit of code you'll need to use in your project for the test). Copy and paste this code into a new file in your project.
 
 ### Turning the Daydream script into a Nightmare test
 
