@@ -125,34 +125,39 @@ To do this, stop the recording by clicking on the green camera symbol. It will t
 
 ### Turning the Daydream script into a Nightmare test
 
-Daydream does a lot of the hard work of writing a Nightmare test for us. However, we do still need to add to the code it gives us in order to write a fully functioning test. The Daydream code does the following:
+Daydream does the hard work of recording our actions into a Nightmare test. However, we still need to add to the code it gives us for our test to work. Let's understand what Daydream has done for us:
 
-1. Set up your code to run Nightmare tests
-2. Write the code that tracks the user's journey throughout the code (ie. going to a given url, clicking on a button)
+**1.** Set up your code to run Nightmare tests
+
+**2.** Written the code that tracks the user's journey throughout the code (ie. going to a given url, clicking on a button)
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24255398/4d9567a8-0fdd-11e7-9888-0d33f330adf0.png)
 
-If you're non-technical you should be able to make sense of the commands in part 2 (on the screenshot) as they resemble common user actions such as clicking on a page or taking a screenshot. The text within the parentheses is an indication of what these commands are applying to ie. what html/css element is being clicked on.
+If you're non-technical try making sense of the commands in part **2** (on the screenshot). They represent common user actions such as clicking on a page or taking a screenshot. The text within the parentheses indicates what these commands apply to ie. what html/css element is being clicked on.
 
-Now that you have your test set up and the journey you want it follow, you need to add what it is you're going to test this journey against. In other words, how can the computer be sure that the page it's landed on is the right one it should have? What parts of the page do you want to make sure look the way they should? Let's use our example to flesh this out.
+**Time to amend part 3**
 
-Daydream has already provided some basics for this next step as shown in part 3. It's handling errors for you and is going to log the result. However first you need to define what 'result' is. This is done using the `.evaluate` method which should come before `.end`.
+Now that you have your test set up and the journey you want it follow, you need to add what it is you're going to test this journey against. In other words, how can the computer be sure that the page it's landed on is the right one? What parts of the page do you want to make sure look the way they should? Let's use our example to flesh this out.
+
+Daydream provides some basics here as shown in part **3**. It's handling errors for you and is going to print the `result`. However before it can print `result` you need to define what `result` is. This is done using the `.evaluate` method which comes before `.end`.
 
 **Here's the evaluate method for our gif example:**
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24258286/29b7140a-0fe5-11e7-846c-3fcd91c31373.png)
 
-`.evaluate` should take a function, whatever this function returns is then channeled into `.then` as your `result`. In the example above the `.evaluate` method is checking what the url of the page is that the test ends on. In this example we're expecting the test to end on the url for the gif. At the moment the `.then` method is simply going to log what `.evaluate` returns. To make our tests more user friendly we can alter this to help us determine whether the result should make our test pass or fail, like so:
+**`.evaluate` takes a function**, whatever this function returns is then channeled into `.then` as your `result`. In our example the `.evaluate` method returns the url of the page that the test ends on. We're expecting `result` to be the giphy url. At the moment the `.then` method is simply going to log what `.evaluate` returns. To make our tests more user friendly we can change this to show whether our test result should be a pass or fail, like so:
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24258634/4bba47a6-0fe6-11e7-8229-80ec0e8934b6.png)
 
-Now our `.then` is taking the url that the test ended on (result )and is checking if it matches the url we were expecting from giphy.com. If the two match it will log that the test has passed. If the two do not match then it will log that the test has failed and tell the user what url the test was expecting and then the url that it actually received.
+Now our `.then` function receives the url that the test ended on (`result`). It checks if `result` matches the giphy url we expected. If the two match it will log that the test has passed. If the two do not match then it will log that the test has failed as well as the expected and recieved urls.
 
-The test is ready, let's run it and see what happens! Type `node ` followed by the file path into the command line and press enter. This is what we get back:
+**The test is ready, let's run it and see what happens!** :sparkles:
+
+Type `node ` followed by the file path into the command line and press enter. You should get:
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24258959/35096c7a-0fe7-11e7-92a3-c659dcc64846.png)
 
-**We've successfully created our first automated test!**
+:star2: **Congratulations, you've successfully created your first automated test!** :star2:
 
 ### Commands to add
 
