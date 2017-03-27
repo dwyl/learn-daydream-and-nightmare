@@ -98,17 +98,21 @@ and it can be used by people without "coding" experience.
 
   Start small. We'll start with the following journey:
 
-  **Navigate to this tutorial > click the gif link at the top in the tutorial description > arrive at a gif with the hashtag 'nightmare'**
+  **From this README > click the gif link in the tutorial description at the top > arrive at a gif with the hashtag 'nightmare'**
 
   This is what it will look like:
 
   ![demo](https://cloud.githubusercontent.com/assets/16775804/24203856/be1985e2-0f0e-11e7-8ff3-ab62df8f8cc9.gif)
 
-- To start your test click on the camera symbol. It will turn green to show it has started.
+#### Let's get started
 
-- Start in a blank tab and navigate to your url in the browser address bar (pasting it in is easiest).
+- Before starting the recording make sure your browser is on the page you wish to start on. In our case it's this README.
+
+- To start the test click the camera symbol. It will turn green to show it is recording.
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24113367/7df1feca-0d94-11e7-99f4-26775eb9f2ee.png)
+
+- The first action you need the script to record is the url of the page you are on. To do this refresh your page (now it will appear as `.goto(www....)` in your finished script).
 
 - Next navigate just as you normally would, following the path that you want the test to take. So for this test you would click on the giphy link in the tutorial description.
 
