@@ -165,8 +165,8 @@ Type `node ` followed by the file path into the command line and press enter. Yo
 - screenshot (and viewing screenshots)
 - click
 - go to
-- green camera bug
 - Ways to get info from the dom ie. html/css elements
+- Change Daydream script screenshot to include screenshot
 
 ### How to Disable a Chrome Extension when Not In Use
 
