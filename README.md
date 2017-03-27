@@ -3,14 +3,6 @@
 Just when you thought the internet couldn't get any _more_ awesome,
 you discover that you've got "***web super powers***"!!
 
-## _Why_?
-
-Testing a web page/site/app to _confirm_ that it is working as _expected_
-_used_ to be difficult and _slow_.
-So most web developers/designers did not bother with _automated_ testing.
-Instead _most_ people do (_manual_) "click though" or "visual regression" testing.
-It turns out us [humans can literally be blind](https://en.wikipedia.org/wiki/Change_blindness) to spotting changes during manual testing.
-
 ## _What_?
 
 This guide is _an introduction to_ "***web super powers***"
@@ -19,37 +11,45 @@ _Unusually_ for a [dwyl "learn" tutorial](https://github.com/search?q=org%3Adwyl
 we will be focussing on learning **_two_ tools**
 in the next **20-30 minutes**. <br />
 (_We usually try and learn/teach **one** thing at a time,
-  but in this case the tools go together like electricity and a **lightbulb**_!)
+  but in this case the tools go together like electricity :zap: and a **lightbulb**_:bulb:!)
 
-### Daydream
+  ### Daydream
 
-Daydream is an _extension_ for the Google Chrome web browser that allows
-you to record your actions into a script you can re-play!
+  Daydream is an _extension_ for the Google Chrome web browser that allows
+  you to record your actions into a script you can re-play!
 
-+ Google Chrome Extension store: https://github.com/segmentio/daydream#google-chrome
-+ GitHub: https://github.com/segmentio/daydream
-
+  + Google Chrome Extension store: https://github.com/segmentio/daydream#google-chrome
+  + GitHub: https://github.com/segmentio/daydream
 
 ### Nightmare.js
 
-<!-- ![nightmare logo](https://cloud.githubusercontent.com/assets/194400/23049531/a0c1372a-f4b4-11e6-96a6-a38637f245a4.png) -->
+  <!-- ![nightmare logo](https://cloud.githubusercontent.com/assets/194400/23049531/a0c1372a-f4b4-11e6-96a6-a38637f245a4.png) -->
 
-Nightmare.js is a JavaScript library that
-lets you automate browser interaction! <br />
-Anything that a _human_ can do in a web browser can be automated by writing
-a small Nightmare.js script.
+  Nightmare.js is a JavaScript library that
+  lets you automate browser interaction! <br />
+  Anything that a _human_ can do in a web browser can be automated by writing
+  a small Nightmare.js script.
 
-+ Website: http://nightmarejs.org (_which **really** does not do it justice!_)
-+ GitHub: https://github.com/segmentio/nightmare
+  + Website: http://nightmarejs.org (_which **really** does not do it justice!_)
+  + GitHub: https://github.com/segmentio/nightmare
 
 
 #### Not Covered
 
 _Awkwardly_, Google _recently_ decided
-to call their Virtual Reality (VR) project "_Daydream_" ...
-see: [google.com/**daydream**](https://vr.google.com/daydream),
-this tutorial is ***not*** for building a "VR" app ...
-but if anyone _asks_ us we will gladly write a "guide to building VR apps"!
+to call their Virtual Reality (VRproject "_Daydream_" ...
+see [google.com/**daydream**](https://vr.ogle.com/daydream),
+this tutorial is ***not*** fobuilding a "VR" app ...
+but if anyone _asks_ us we will gladlwrite a "guide to building VR apps"!
+
+## _Why_?
+
+Testing a web page/site/app to _confirm_ that it is working as _expected_
+_used_ to be difficult and _slow_.
+So most web developers/designers did not bother with _automated_ testing.
+Instead _most_ people do (_manual_) "click though" or "visual regression" testing.
+It turns out us [humans can literally be blind](https://en.wikipedia.org/wiki/Change_blindness) to spotting changes during manual testing.
+
 
 ## _Who_?
 
