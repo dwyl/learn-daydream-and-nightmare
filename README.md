@@ -74,8 +74,7 @@ the code is quite simple!
 While _this_ tutorial has ***no pre-requisites***
 (_other than a computer & Chrome web browser_),
 we have written an _introductory_ step-by-step guide
-to help _anyone_ learn "***Test Driven Development***" (**TDD**)
-see: [github.com/dwyl/**learn-tdd**](https://github.com/dwyl/learn-tdd)
+to help _anyone_ [learn "Test Driven Development" (TDD)](https://github.com/dwyl/learn-tdd).
 
 ### What about _Automated_ Testing?
 
