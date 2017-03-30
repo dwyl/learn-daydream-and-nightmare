@@ -86,6 +86,8 @@ and it can be used by people without "coding" experience.
 
 ### Daydream walkthrough
 
+** This tutorial assumes that you have node installed and [Nightmare installed](https://github.com/segmentio/nightmare) as a dependency**
+
 #### Add Daydream to Chrome
 
 - [**Add Daydream to your Chrome extensions**](https://chrome.google.com/webstore/detail/daydream/oajnmbophdhdobfpalhkfgahchpcoali). You should now have a camera icon in the top right corner of your browser.
