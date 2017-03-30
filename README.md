@@ -11,7 +11,7 @@ So most web developers/designers did not bother with _automated_ testing.
 Instead _most_ people do (_manual_) "click though" or "visual regression" testing.
 It turns out us [humans can literally be blind](https://en.wikipedia.org/wiki/Change_blindness) to spotting changes during manual testing.
 
-[Automated testing can help with web scraping too...](https://hackernoon.com/nightmarishly-good-scraping-with-nightmare-js-and-async-await-b7b20a38438f)
+Other uses? [Automated testing can help with web scraping too...](https://hackernoon.com/nightmarishly-good-scraping-with-nightmare-js-and-async-await-b7b20a38438f)
 
 ## _What_?
 
