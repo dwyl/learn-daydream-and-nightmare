@@ -88,23 +88,23 @@ and it can be used by people without "coding" experience.
 
 ### Daydream walkthrough
 
-** This tutorial assumes that you have node installed and [Nightmare installed](https://github.com/segmentio/nightmare) as a dependency**
+**This tutorial assumes that you have node installed and [Nightmare installed](https://github.com/segmentio/nightmare) as a dependency**
 
 #### Add Daydream to Chrome
 
-- [**Add Daydream to your Chrome extensions**](https://chrome.google.com/webstore/detail/daydream/oajnmbophdhdobfpalhkfgahchpcoali). You should now have a camera icon in the top right corner of your browser.
+- To begin [**add Daydream to your Chrome extensions**](https://chrome.google.com/webstore/detail/daydream/oajnmbophdhdobfpalhkfgahchpcoali). You should now have a camera icon in the top right corner of your browser.
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24111767/6f6f2512-0d8f-11e7-93db-c6976bfb8d9e.png)
 
+#### Let's get started
+
 - **Pick a user journey that you want to test.** Start small. We'll start with the following journey:
 
-  **From this README > click the gif link in the tutorial description at the top > arrive at a gif with the hashtag 'nightmare'**
+  **From this README > click the giphy link in the tutorial description at the top > arrive at a gif with the hashtag 'nightmare'**
 
   This is what it will look like:
 
   ![demo](https://cloud.githubusercontent.com/assets/16775804/24203856/be1985e2-0f0e-11e7-8ff3-ab62df8f8cc9.gif)
-
-#### Let's get started
 
 - Before starting the recording make sure your browser is on the page you wish to start on. In our case it's this README.
 
@@ -112,9 +112,9 @@ and it can be used by people without "coding" experience.
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24113367/7df1feca-0d94-11e7-99f4-26775eb9f2ee.png)
 
-- The first action you need the script to record is the url of the page you are on. To do this refresh your page (now it will appear as `.goto(www....)` in your finished script).
+- The first action you need the script to record is the url of the page you are on. To do this refresh your page (it will appear as `.goto(www....)` in your finished script).
 
-- Next navigate just as you normally would, following the path that you want the test to take. So for this test you would click on the giphy link in the tutorial description.
+- Next navigate as you normally would, following the path that you want the test to take. So for this test you would click on the giphy link in the tutorial description.
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24113044/57cb6eb2-0d93-11e7-8973-bc82cfbe7519.png)
 
@@ -143,7 +143,7 @@ Now that you have your test set up and the journey you want it follow, you need 
 
 Daydream provides some basics here as shown in part **3**. It's handling errors for you and is going to print the `result`. However before it can print `result` you need to define what `result` is. This is done using the `.evaluate` method which comes before `.end`.
 
-**Here's the evaluate method for our gif example:**
+**Here's the evaluate method for our giphy example:**
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24258286/29b7140a-0fe5-11e7-846c-3fcd91c31373.png)
 
@@ -151,11 +151,11 @@ Daydream provides some basics here as shown in part **3**. It's handling errors 
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24258634/4bba47a6-0fe6-11e7-8229-80ec0e8934b6.png)
 
-Now our `.then` function receives the url that the test ended on (`result`). It checks if `result` matches the giphy url we expected. If the two match it will log that the test has passed. If the two do not match then it will log that the test has failed as well as the expected and recieved urls.
+Now our `.then` function receives the url that the test ended on (`result`). It checks if `result` matches the giphy url we expected. If the two match it will log that the test has passed :white_check_mark:. If the two do not match then it will log that the test has failed :x: as well as the expected and recieved urls.
 
 **The test is ready, let's run it and see what happens!** :sparkles:
 
-Type `node ` followed by the file path into the command line and press enter. You should get:
+To run the test type `node ` followed by the file path into the command line and press enter. You should get:
 
 ![image](https://cloud.githubusercontent.com/assets/16775804/24258959/35096c7a-0fe7-11e7-92a3-c659dcc64846.png)
 
