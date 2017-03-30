@@ -47,7 +47,7 @@ _Awkwardly_, Google _recently_ decided
 to call their Virtual Reality (VRproject "_Daydream_" ...
 see [google.com/**daydream**](https://vr.ogle.com/daydream),
 this tutorial is ***not*** fobuilding a "VR" app ...
-but if anyone _asks_ us we will gladlwrite a "guide to building VR apps"!
+but if anyone _asks_ us we will gladly write a "guide to building VR apps"!
 
 ## _Who_?
 
