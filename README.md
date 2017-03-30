@@ -163,7 +163,6 @@ To run the test type `node ` followed by the file path into the command line and
 
 ### Commands to add
 
-- Need node to use it - link to a node tutorial? or just tell the user to npm init?
 - screenshot (and viewing screenshots)
 - click
 - go to
