@@ -3,6 +3,14 @@
 Just when you thought the internet couldn't get any _more_ awesome,
 you discover that you've got "***web super powers***"!!
 
+## _Why_?
+
+Testing a web page/site/app to _confirm_ that it is working as _expected_
+_used_ to be difficult and _slow_.
+So most web developers/designers did not bother with _automated_ testing.
+Instead _most_ people do (_manual_) "click though" or "visual regression" testing.
+It turns out us [humans can literally be blind](https://en.wikipedia.org/wiki/Change_blindness) to spotting changes during manual testing.
+
 ## _What_?
 
 This guide is _an introduction to_ "***web super powers***"
@@ -33,7 +41,6 @@ in the next **20-30 minutes**. <br />
   + Website: http://nightmarejs.org (_which **really** does not do it justice!_)
   + GitHub: https://github.com/segmentio/nightmare
 
-
 #### Not Covered
 
 _Awkwardly_, Google _recently_ decided
@@ -41,15 +48,6 @@ to call their Virtual Reality (VRproject "_Daydream_" ...
 see [google.com/**daydream**](https://vr.ogle.com/daydream),
 this tutorial is ***not*** fobuilding a "VR" app ...
 but if anyone _asks_ us we will gladlwrite a "guide to building VR apps"!
-
-## _Why_?
-
-Testing a web page/site/app to _confirm_ that it is working as _expected_
-_used_ to be difficult and _slow_.
-So most web developers/designers did not bother with _automated_ testing.
-Instead _most_ people do (_manual_) "click though" or "visual regression" testing.
-It turns out us [humans can literally be blind](https://en.wikipedia.org/wiki/Change_blindness) to spotting changes during manual testing.
-
 
 ## _Who_?
 
