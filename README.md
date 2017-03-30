@@ -45,8 +45,8 @@ in the next **20-30 minutes**. <br />
 
 #### Not Covered
 
-_Awkwardly_, Google _recently_ decided
-to call their Virtual Reality (VRproject "_Daydream_" ...
+_Awkwardly_, Google recently decided
+to call their Virtual Reality (VR project "_Daydream_" ...
 see [google.com/**daydream**](https://vr.ogle.com/daydream),
 this tutorial is ***not*** for building a "VR" app ...
 but if anyone _asks_ us we will gladly write a "guide to building VR apps"!
