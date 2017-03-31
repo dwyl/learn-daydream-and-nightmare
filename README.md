@@ -88,7 +88,7 @@ and it can be used by people without "coding" experience.
 
 ### Daydream walkthrough
 
-**This tutorial assumes that you have node installed and [Nightmare installed](https://github.com/segmentio/nightmare) as a dependency**
+**This tutorial assumes that you have node.js installed and [Nightmare installed](https://github.com/segmentio/nightmare) as a dependency**
 
 #### Add Daydream to Chrome
 
