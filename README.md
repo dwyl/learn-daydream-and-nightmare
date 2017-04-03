@@ -104,7 +104,7 @@ and it can be used by people without "coding" experience.
 
   This is what it will look like:
 
-  ![demo](https://cloud.githubusercontent.com/assets/16775804/24203856/be1985e2-0f0e-11e7-8ff3-ab62df8f8cc9.gif)
+  ![demo](https://cloud.githubusercontent.com/assets/16775804/24606707/6367b6f8-1866-11e7-9e34-f7633f13e07e.gif)
 
 - Before starting the recording make sure your browser is on the page you wish to start on. In our case it's this README.
 
